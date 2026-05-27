@@ -284,8 +284,8 @@ This project demonstrates practical competency in:
 **Your Name**  
 Cloud & DevOps Engineer
 
-- GitHub: [https://github.com/your-username](https://github.com/your-username)
-- LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- GitHub: [https://github.com/your-username](https://github.com/chaitanya5068)
+- LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/chaitanya-bhosale)
 
 ---
 
