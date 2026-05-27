@@ -150,19 +150,27 @@ terraform destroy
 - IAM principal with permissions for VPC, EC2, RDS, and networking resources
 - SSH key pair (`mykey` / `mykey.pub`)
 
-### 2. Clone Repository
+### 2. Rotate SSH Key Pair (Important)
+
+If `mykey` was committed locally earlier, generate a fresh key pair before reuse:
+
+```bash
+ssh-keygen -f newkey
+```
+
+### 3. Clone Repository
 
 ```bash
 git clone https://github.com/<your-username>/aws-multitier-terraform-automation.git
 cd aws-multitier-terraform-automation
 ```
 
-### 3. Configure Variables
+### 4. Configure Variables
 
 - Update values in `terraform.tfvars` as per environment requirements
 - Keep sensitive values out of version control where possible
 
-### 4. Initialize and Validate
+### 5. Initialize and Validate
 
 ```bash
 terraform init
