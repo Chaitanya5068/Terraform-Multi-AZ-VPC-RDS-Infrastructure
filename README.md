@@ -170,6 +170,16 @@ cd aws-multitier-terraform-automation
 - Update values in `terraform.tfvars` as per environment requirements
 - Keep sensitive values out of version control where possible
 
+Example `terraform.tfvars` entries:
+
+```hcl
+access_key = "xyz"
+secret_key = "xyz"
+region     = "us-east-1"
+```
+
+Note: Add your real AWS `access_key` and `secret_key` values before running `terraform plan` or `terraform apply`.
+
 ### 5. Initialize and Validate
 
 ```bash
